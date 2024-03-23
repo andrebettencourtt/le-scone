@@ -1,10 +1,10 @@
 # le-scone ☕
 
-Este repositório contém o código fonte e os arquivos necessários para o projeto Le Scone, um site fictício de uma cafeteria, desenvolvido como parte de um exercício de prática em HTML e CSS.
+Este repositório contém o código fonte e os arquivos necessários para o projeto Le Scone, um site fictício de uma padaria, desenvolvido como parte de um exercício de prática em HTML e CSS.
 
 ## Visão Geral 🌟
 
-Le Scone é um projeto simples de um site estático para uma cafeteria, que inclui uma página inicial, uma página de menu e uma página de contato. O objetivo principal deste projeto é praticar habilidades em HTML e CSS, focando na estruturação e estilização de páginas web.
+Le Scone é um projeto simples de um site estático para uma padaria, que inclui uma página inicial, uma página de menu e uma página de contato. O objetivo principal deste projeto é praticar habilidades em HTML e CSS, focando na estruturação e estilização de páginas web.
 
 ## Estrutura do Repositório 📂
 
