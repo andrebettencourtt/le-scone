@@ -1,7 +1,5 @@
 # le-scone ☕
 
-![Le Scone](https://github.com/andrebettencourt7/le-scone/blob/main/images/le-scone.jpg)
-
 Este repositório contém o código fonte e os arquivos necessários para o projeto Le Scone, um site fictício de uma cafeteria, desenvolvido como parte de um exercício de prática em HTML e CSS.
 
 ## Visão Geral 🌟
