@@ -245,5 +245,28 @@ footer {
     box-shadow: 0px 0px 0px 10px #2A2426;
 }
 
+@media (max-width: 520px) {
 
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    main > img {
+        display: none;
+    }
+
+    .hero-wrapper > img {
+        align-self: center;
+    }
+
+    .hero-wrapper :nth-child(4) {
+        font-size: 100px;
+    }
+
+}
 
