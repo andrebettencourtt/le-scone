@@ -8,12 +8,21 @@
     box-sizing: border-box;
 }
 
+:root {
+    --brow-100: #988C77;
+    --brow-300: #CBC6B9;
+    --brow-500: #EDECE4;
+    --black-100: black;
+    --black-300: #2A2426;
+    --font: 'Aref Ruqaa', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #EDECE4;
-    border: 10px solid #CBC6B9;
+    background-color:var(--brow-500);
+    border: 10px solid var(--brow-300);
 }
 
 main {
@@ -32,7 +41,7 @@ span {
 
 .textDay {
     font-size: 18;
-    color: black;
+    color: var(--black-100);
 }
 
 .markerGreen {
@@ -48,8 +57,8 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 2px solid var(--black-100);
+    border-right: 2px solid var(--black-100);
 }
 
 .textLocation {
@@ -58,11 +67,11 @@ span {
     justify-content: center;
     width: 318px;
     height: 82px;
-    border-right: 2px solid black;
+    border-right: 2px solid var(--black-100);
 }
 
 .textDecoration {
-    color: #988C77;
+    color: var(--brow-100);
     font-size: 18px;
 }
 
@@ -106,7 +115,7 @@ section {
 .line {
     width: 255px;
     height: 2px;
-    background-color: black;
+    background-color: var(--black-100);
 }
 
 .line-contact {
@@ -117,7 +126,7 @@ article>p,
 li>p {
     font-size: 18px;
     font-family: 'PT Mono', sans-serif;
-    color: black;
+    color: var(--black-100);
     height: 14px;
 }
 
@@ -126,15 +135,15 @@ li {
     align-items: center;
     gap: 10px;
     list-style: none;
-    color: #988C77;
-    font-family: 'Aref Ruqaa', sans-serif;
+    color: var(--brow-100);
+    font-family: var(--font);
     font-size: 18px;
     padding-bottom: 12px;
 }
 
 .main-menu>h3 {
     font-size: 24px;
-    font-family: 'Aref Ruqaa', sans-serif;
+    font-family: var(--font);
     padding-bottom: 26px;
     padding-left: 50px;
 }
@@ -193,13 +202,13 @@ div>.column:last-child {
 
 input {
     height: 40px;
-    border: 3px solid #988C77;
+    border: 3px solid var(--brow-100);
     background-color: transparent;
     width: 100%;
 }
 
 textarea {
-    border: 3px solid #988C77;
+    border: 3px solid var(--brow-100);
     background-color: transparent;
 }
 
@@ -207,10 +216,10 @@ button {
     width: 200px;
     height: 40px;
     background-color: transparent;
-    border: 3px solid #988C77;
-    color: #988C77;
+    border: 3px solid var(--brow-100);
+    color: var(--brow-100);
     font-size: 18px;
-    box-shadow: 5px 5px 0px -2px #CBC6B9, 5px 5px 0px #988C77;
+    box-shadow: 5px 5px 0px -2px var(--brow-300), 5px 5px 0px var(--brow-100);
 }
 
 label {
@@ -230,7 +239,7 @@ iframe {
 
 map {
     height: 226px;
-    box-shadow: 0px 0px 0px 10px #CBC6B9;
+    box-shadow: 0px 0px 0px 10px var(--brow-300);
     margin-top: 60px;
 }
 
@@ -239,11 +248,11 @@ footer {
     justify-content: space-around;
     width: 100%;
     height: 70px;
-    background-color: #2A2426;
-    color: #EDECE4;
+    background-color: var(--black-300);
+    color: var(--brow-500);
     font-size: 18px;
     align-items: center;
-    box-shadow: 0px 0px 0px 10px #2A2426;
+    box-shadow: 0px 0px 0px 10px var(--black-300);
 }
 
 @media (max-width: 520px) {
